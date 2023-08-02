@@ -16,6 +16,7 @@ public class Main {
         System.out.println("ФИО сотрудника — " + fullName + ".");
 
     }
+
     public static void task2() {
         System.out.println();
         System.out.println("Задача 2");
@@ -37,6 +38,7 @@ public class Main {
         String fullName1 = fullName.replace('ё', 'е').replace('Ё', 'Е');
         System.out.println("Данные ФИО сотрудника — " + fullName1 + ".");
         // В задаче "Иванов Семён Семёнович". Программа не принимает "ё", поэтому учла регистр.
+
 
     }
 }
